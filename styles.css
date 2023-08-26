@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+h1 {
+  margin: 40px auto;
+  color: #a83641e6;
+  text-align: center;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  padding: 6px 10px;
+  border: 1px solid #eee;
+  margin: 10px auto;
+}
+li h4 {
+  color: #ff0aa7;
+  margin: 0;
+  text-transform: capitalize;
+}
+li p {
+  color: #333;
+  margin: 8px 0 0;
+}
+a {
+  color: #a3a0a0;
+}
+form {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.finance {
+  background: #eee;
+  padding: 60px;
+  margin-top: 60px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #333;
+  margin: 16px 0 6px;
+}
+input,
+select {
+  padding: 6px;
+  border: 1px solid #746d6d;
+  border-radius: 4px;
+}
+.field {
+  display: inline-block;
+  margin: 0 10px;
+}
+button {
+  color: white;
+  border: 0;
+  background: #e54862;
+  padding: 6px;
+  min-width: 80px;
+  border-radius: 4px;
+}
+button:hover {
+  background: #880d22;
+}
+footer a {
+  text-align: center;
+  color: #160909;
+  margin-top: 100%;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: center;
+  background: #b4aaaa;
+  padding: 1em;
+}
