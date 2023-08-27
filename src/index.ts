@@ -1,4 +1,28 @@
-// form
+//classes
+class Invoice {
+  constructor(
+    readonly client: string,
+    private details: string,
+    public amount: number
+  ) {}
+
+  format() {
+    return `${this.client} owes ₹${this.amount} for ${this.details}`;
+  }
+}
+
+const invOne = new Invoice("naruto", "work on the naruto website", 10000);
+const invTwo = new Invoice("sasuke", "work on the sasuke website", 12000);
+
+let invoices: Invoice[] = [];
+invoices.push(invOne);
+invoices.push(invTwo);
+
+invoices.forEach((invoice) => {
+  console.log(invoice.format());
+});
+
+// forms
 const form = document.querySelector(".new-item-form") as HTMLFormElement;
 
 // inputs
