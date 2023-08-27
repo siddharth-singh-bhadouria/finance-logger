@@ -1,15 +1,17 @@
 import { Invoice } from "./classes/Invoice.js";
+import { Payment } from "./classes/Payment.js";
+import { HasFormatter } from "./interfaces/hasFormatter.js";
 
-const invOne = new Invoice("naruto", "work on the naruto website", 10000);
-const invTwo = new Invoice("sasuke", "work on the sasuke website", 12000);
+// const invOne = new Invoice("naruto", "work on the naruto website", 10000);
+// const invTwo = new Invoice("sasuke", "work on the sasuke website", 12000);
 
-let invoices: Invoice[] = [];
-invoices.push(invOne);
-invoices.push(invTwo);
+// let invoices: Invoice[] = [];
+// invoices.push(invOne);
+// invoices.push(invTwo);
 
-invoices.forEach((invoice) => {
-  console.log(invoice.format());
-});
+// invoices.forEach((invoice) => {
+//   console.log(invoice.format());
+// });
 
 // forms
 const form = document.querySelector(".new-item-form") as HTMLFormElement;

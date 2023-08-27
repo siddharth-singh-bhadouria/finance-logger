@@ -1,5 +1,11 @@
+import { HasFormatter } from "../interfaces/hasFormatter";
 //classes
-export class Invoice {
+export class Invoice implements HasFormatter {
+  //   public amount: number;
+  //   constructor(readonly client: string, private details: string, n: number) {
+  //     this.amount = n;
+  //   }
+
   constructor(
     readonly client: string,
     private details: string,
